@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'robot', sans-serif !important;
+    background-color: #f1f3f6 !important;
+}
+:root {
+--primary-color: #2874f0
+}
+.container{
+    padding: 0 8px;
+}
+
+/* Header */
+header {
+    background-color: white;
+    height: 65px;
+}
+header .nav-container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    max-width: 1248px;
+    margin: 0 auto;
+}
+header .nav-container .logo{
+    display: flex;
+    /* min-width: 137px; */
+    justify-content: flex-end;
+    margin-left: -3%;
+    align-items: center;
+}
+header .nav-container .logo img{
+    width: 160px; 
+    height: 40px;
+}
+header .search {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 22px;
+}
+header .search .search-container{
+    width: 625px;
+    height: 40px;
+    background-color: white;
+    border-radius: 2px;
+    /* box-shadow: 0 2px 4px 0 rgb(0 0 0 / 23%); */
+    display: flex;
+}
+header .search .search-container input{
+    width: 100%;
+    outline: none;
+    border: none;
+    background: #f0f5ff;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif
+}
+header .search .search-container button{
+    width: 38px;
+    height: 100%;
+    padding: 0 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: #f0f5ff;
+    border-radius: 10px 0px 0px 10px;
+}
+.right-header{
+    display: flex;
+    margin-left: 0%;
+}
+header .login{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 35px;
+}
+.images-brand{
+    margin-right: 5%;
+}
+.cart{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 35px; 
+}
+.become-seller{
+    height: 100%;
+    display: flex; 
+    align-items: center;
+    margin: 0 20px; 
+    width: 165px;
+}
+
+/* SECTION 1 */
+
+.section-1{
+   width: 98%;
+   margin-left: 1%;
+   height: 122px;
+   background: white;
+   margin-top: 10px;
+   /* box-shadow: 0 1px 1px 0 rgb(0 0 0 /16%); */
+}
+.section-1-container{
+    width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-1-item{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    align-items: center;
+}
+.section-1-item img{
+    width: 64px;
+    height: 64px;
+}
+/* SECTION 2 */
+/* .section-2-container{
+    margin-top: 16px;
+    height: 500px;
+    background-image: url('https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/5aab8847f5e9869f.jpg?q=20');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+#devCarousel{
+    margin-top: 16px;
+}
+
+.sliderImage{
+    height: 250px !important;
+    width: 100%;
+}
+
+/* SECTION 3 */
+.section-3{
+    background-color: white;
+    width: 98%;
+    margin-left: 1%;
+    
+}
+.section-3-container{
+    margin-top: 16px;
+    height: 362px;
+
+}
+.smartphones{
+    display: flex;
+    
+}
+
+.section-3-headline{
+padding: 1%;
+font-size: 25px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.section-3-item{
+    border: 1px solid rgb(222, 215, 215);
+    margin-left: 2%;
+    padding: 1%;
+    border-radius: 5px;
+    height: 250px;
+    width: 100%;
+}
+.section-3-item img{
+    height: 200px;
+    
+}
+.phone-items{
+    text-align: center;
+}
+.span-text{
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+}
+
+.section-3-item img{
+    height: 150px;
+    width: 100%;
+    object-fit: contain;
+}
+
+/***** section 6 */
+.section-6{
+    height: 700px;
+    background-color: white;
+    width: 98%;
+    margin-left: 1%;
+    margin-top: 2%;
+    display: flex;
+    
+}
+.section6-item2
+{
+    display: flex;   
+}
+.container-grid{
+    display: flex;
+    width: 80%;
+    /* gap: 10px; */
+    
+}
+.section-main{
+    display: grid;
+    
+}
+
+.item-section6-1{
+    height: 430px;
+    border: 1px solid rgb(222, 215, 215);
+    margin-left: 2%;
+    padding: 9%;
+    border-radius: 5px;
+    height: 250px;
+    width: 320px;
+    margin-bottom: 10px;
+}
+
+.item-section6-1 > img{
+    height: 150px;
+    width: 120%;
+    margin-left: -16px;
+}
+
+.section-6-headline{
+    font-size: 22px;
+    padding: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+/* .item2-section-6{
+    height: 700px;
+    width: 450px;
+    background: red;
+} */
+.item2-section-6 img{
+    height: 600px;
+    width: 922px;
+    margin-left: 7%;
+}
+.section6-item1{
+    height: 600px;
+    width: 32%;
+    background-color: white;
+    margin-top: 2%;
+    margin-left: 1%;
+    margin-bottom: 2%;
+    display: flex;
+}
+.section7-item1{
+    display: flex;
+}
+
+.section6-item1 div{
+    width: 446px;
+    height: 257px;
+    margin-bottom: 2%;
+}
+
+.legal-text{
+    color: #878787;
+    padding: 25px;
+}
+
+footer {
+    /* height: 60px; */
+    /* border: 5px dotted orange; */
+    text-align: center;
+    background-color: #212121;
+    color: white;
+  }
+  .footText {
+    text-align: center;
+  }
+  .footDiv {
+    width: 16%;
+    display: inline-block;
+    border-right: 2px solid #454d5e;
+  }
+  .noBorder {
+    border: none;
+  }
+  ul {
+    list-style-type: none;
+  }
+  hr{
+    color: white;
+    width: 1px;
+  }
